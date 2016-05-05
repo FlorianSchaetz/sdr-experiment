@@ -1,4 +1,4 @@
-package de.irian.learning;
+package de.irian.learning.sdr;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
