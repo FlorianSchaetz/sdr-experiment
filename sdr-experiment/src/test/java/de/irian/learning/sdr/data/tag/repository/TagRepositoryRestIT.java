@@ -22,6 +22,11 @@ import org.springframework.web.client.RestTemplate;
 
 import de.irian.learning.sdr.SdrExperimentApplication;
 
+/**
+ * Basic test to check if the TagRepository is correctly exposed as a RESTful WebService automatically
+ * 
+ * @author Florian Schaetz <mail@florian-schaetz.de>
+ */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration
 @WebIntegrationTest(randomPort = true)

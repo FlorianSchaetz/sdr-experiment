@@ -11,6 +11,11 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import de.irian.learning.sdr.SdrExperimentApplication;
 import de.irian.learning.sdr.data.tag.entity.Tag;
 
+/**
+ * Basic test to check if the TagRepository is working correctly when created via Spring
+ * 
+ * @author Florian Schaetz <mail@florian-schaetz.de>
+ */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(SdrExperimentApplication.class)
 public class TagRepositoryIT {
