@@ -8,6 +8,8 @@ INSERT INTO login(id, name, password) VALUES
 
 INSERT INTO tag(id, name) VALUES
 (1, 'some tag'),
-(2, 'something else');
+(2, 'something else'),
+(3, 'admin');
+
 
 

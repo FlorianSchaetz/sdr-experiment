@@ -16,4 +16,7 @@ public interface LoginRepository extends PagingAndSortingRepository<Login, Integ
 	@RestResource(exported=true)
 	Login findOne(Integer id);
 	
+	@RestResource(exported=false)
+	Login findByNameAndPassword(String name, String password);
+	
 }
